@@ -29,17 +29,7 @@ namespace SfComboBox_Selection
         /// </summary>
         private void InitializeComponent()
         {
-            this.sfComboBox1 = new Syncfusion.WinForms.ListView.SfComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.sfComboBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // sfComboBox1
-            // 
-            this.sfComboBox1.Location = new System.Drawing.Point(130, 56);
-            this.sfComboBox1.Name = "sfComboBox1";
-            this.sfComboBox1.Size = new System.Drawing.Size(150, 28);
-            this.sfComboBox1.Style.TokenStyle.CloseButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.sfComboBox1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -49,18 +39,14 @@ namespace SfComboBox_Selection
             this.CaptionButtonColor = System.Drawing.Color.White;
             this.CaptionForeColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(438, 264);
-            this.Controls.Add(this.sfComboBox1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SfComboBox_Index";
-            ((System.ComponentModel.ISupportInitialize)(this.sfComboBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Syncfusion.WinForms.ListView.SfComboBox sfComboBox1;
     }
 }
 

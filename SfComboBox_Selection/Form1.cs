@@ -1,5 +1,6 @@
 ﻿using Syncfusion.Windows.Forms;
 using Syncfusion.WinForms.Controls;
+using Syncfusion.WinForms.ListView;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,6 +19,9 @@ namespace SfComboBox_Selection
         {
             InitializeComponent();
             List<State> list = GetData();
+            SfComboBox sfComboBox1 = new SfComboBox();
+            sfComboBox1.Size = new Size(150, 28);
+            sfComboBox1.Location = new Point(138, 56);
             sfComboBox1.DataSource = list;
 
             //Bind the Display member and Value member to the data source
@@ -33,6 +37,7 @@ namespace SfComboBox_Selection
 
             //Select the item based on item
             sfComboBox1.SelectedItem = list[1];
+            this.Controls.Add(sfComboBox1);
         }
 
         List<State> GetData()
