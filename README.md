@@ -27,5 +27,5 @@ Index of the selected item can be retrieved by using the SelectedIndex property.
                 this.Controls.Add(sfComboBox1);
             }
 
+![Select Index programatically](https://user-images.githubusercontent.com/93652178/204493571-d426dda0-9da9-4d63-aa24-50e99dd292f3.png)
 
-![Select Item through Index](SfComboBox_Selection_C#/Image/Select%20item%20through%20index.png)
