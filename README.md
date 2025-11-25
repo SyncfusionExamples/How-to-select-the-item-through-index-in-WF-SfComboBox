@@ -69,5 +69,5 @@ public class State
 For more details, refer to the official Syncfusion Knowledge Base: https://support.syncfusion.com/kb/article/10653/how-to-select-the-item-through-index-in-winforms-sfcombobox
 
 ## Output
-![Select item through index in WinForms SfComboBox](output.png)
+![Select item through index in WinForms SfComboBox](index_selection_in_winforms_sfcombobox.png)
 
